@@ -15,6 +15,8 @@
 
 /* Audio Styles */
 
+/* This 'audio' selector displays all 'audio' elemtents as a block, gives the element a box-shadow, adjusts the margins, changes the width to 80%, & smoothens the border. */
+
 audio {
     display: block;
     box-shadow: 8px 8px 15px darkgray;
@@ -22,6 +24,8 @@ audio {
     width: 80%;
     border-radius: 50px;
 }
+
+/* This style rule changes the audio clips background color to an rgb of (128, 128, 255).  */
 
 audio::-webkit-media-controls-panel {
     background-color: rgb(128, 128, 255);
